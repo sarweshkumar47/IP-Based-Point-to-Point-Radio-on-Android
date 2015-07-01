@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="19.1.0"><source path="/home/anrc47/workspace/AndroidStudio200315/IP_Point_Point_Radio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets"/></dataSet><dataSet config="main"><source path="/home/anrc47/workspace/AndroidStudio200315/IP_Point_Point_Radio/app/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/anrc47/workspace/AndroidStudio200315/IP_Point_Point_Radio/app/src/debug/assets"/></dataSet></merger>

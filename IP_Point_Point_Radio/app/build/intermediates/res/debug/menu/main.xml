@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testdigimet.MainActivity">
+
+       <item android:id="@+id/enable"
+          android:icon="@drawable/ic_action_accept"
+          android:orderInCategory="100"         
+          android:title="enable"
+          android:showAsAction="ifRoom"/>
+
+</menu>
+<!-- From: file:/home/anrc47/workspace/AndroidStudio200315/IP_Point_Point_Radio/app/src/main/res/menu/main.xml -->

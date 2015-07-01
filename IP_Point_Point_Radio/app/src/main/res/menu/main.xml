@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testdigimet.MainActivity">
+
+       <item android:id="@+id/enable"
+          android:icon="@drawable/ic_action_accept"
+          android:orderInCategory="100"         
+          android:title="enable"
+          android:showAsAction="ifRoom"/>
+
+</menu>

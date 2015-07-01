@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gpstest.MainActivity" >
+
+
+        <TextView
+
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="IP based Point-to-Point Radio"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/ip_port"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/heading"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Port"
+            android:textSize="20sp"
+            />
+
+
+        <Switch
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio is OFF"
+            android:textSize="20sp"
+            android:id="@+id/radio_onoff"
+            android:layout_marginTop="40dp"
+            android:checked="false"
+            android:layout_below="@+id/ip_port"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+             />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_view_rounded_single"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="visible"
+            android:layout_below="@+id/radio_onoff"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp">
+ 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Volume control"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        
+            <LinearLayout
+                android:id="@+id/sub_l1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_view_rounded_single"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+        
+                <ImageView
+                    android:id="@+id/volumeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_action_volume_on" />
+ 
+                <SeekBar
+                    android:id="@+id/volumebar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="0"
+                    android:max="14"
+                    android:progressDrawable="@drawable/progressbar" />
+         
+ 
+            </LinearLayout>
+
+                     
+	        <ProgressBar
+     	        android:id="@+id/cspinner"
+    	        android:indeterminate="true"
+    	        style="?android:attr/progressBarStyleLarge"
+    	        android:layout_width="30dp"
+    	        android:layout_height="30dp"
+    	        android:layout_marginTop="5dp"
+    	        android:layout_gravity="center_horizontal"
+    	        android:indeterminateDrawable="@drawable/custom_progress_background"/>
+  
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:text="" />
+        </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -136,8 +136,6 @@ public class RadioActivity extends Activity {
         });
     }
 
-
-//********************* Audio Starting thread **********************************************************
 	/*
 	 * start a thread for receiving the audio data
 	 */

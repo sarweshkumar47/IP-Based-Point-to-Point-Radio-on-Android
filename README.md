@@ -7,7 +7,7 @@ device (Embedded hardware or any linux machine) if it is connected to the same n
 received data from the speaker.
    
     
-Software Tools:
+### Software Tools:
 
     -> Android Studio
   

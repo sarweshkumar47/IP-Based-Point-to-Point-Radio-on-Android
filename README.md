@@ -7,12 +7,12 @@ device (Embedded hardware or any linux machine) if it is connected to the same n
 received data from the speaker.
    
     
-### Software Tools:
+### Software Tools
 
     -> Android Studio
   
   
-### Brief description
+### Brief description about the project
       
 * Receives UDP audio packets from another android device if it is connected to the same wifi network
 

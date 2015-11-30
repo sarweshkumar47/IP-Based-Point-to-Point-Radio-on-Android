@@ -12,7 +12,7 @@ received data from the speaker.
     -> Android Studio
   
   
-  
+### Brief description
       
 * Receives UDP audio packets from another android device if it is connected to the same wifi network
 
